@@ -59,7 +59,7 @@ If you need to set additional user fields when the user model is created at logi
 3. Click into the newly created app.
 4. The "Application ID" is what you will need for your `AZURE_AD_CLIENT_ID` env variable.
 5. Click into "Reply URLs". You will need to whitelist the redirection path for your app here. It will typically be `https://domain.com/login/microsoft/callback`. Click "Save"
-6. Select the permissions required for you app in the "Required permissions" tab.
+6. Select the permissions required for your app in the "Required permissions" tab.
 7. Add any necessary roles to the manifest:
   1. Click on the "Manifest" tab.
   2. Add roles as necessary using the following format:
